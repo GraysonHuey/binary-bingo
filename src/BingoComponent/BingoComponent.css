@@ -12,31 +12,31 @@
 }
 
 #bingo-text {
-    width: 60vw; /* Explicitly span a large width to fill halfway */
-    max-width: 80%; /* Ensure it doesn't overflow excessively */
-    font-size: 8vw; /* MASSIVE text size based on viewport width */
+    width: 50vw; /* Make the width span halfway between the roll button and timer */
+    max-width: 70%; /* Ensure it doesn’t exceed 70% of the screen width */
+    font-size: calc(6vw + 40px); /* Scale font size dynamically with viewport width */
     color: #ffffff; /* White text */
-    border: 8px solid #ffffff; /* Thick white border */
+    border: 5px solid #ffffff; /* Thicker white border */
     border-radius: 10px;
     margin: auto;
     margin-bottom: 3vh;
-    padding: 4vw; /* Generous padding for a bold look */
+    padding: 3vw; /* Add spacing inside for readability */
     margin-top: 3vh;
     text-align: center; /* Center the text */
 }
 
 #bingo-text span {
     color: #ffffff; /* Keep span text white */
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
 }
 
 #answer {
-    width: 60vw; /* Match width of binary text */
-    max-width: 80%; /* Prevent excessive overflow */
-    font-size: 8vw; /* Same massive text size */
+    width: 50vw; /* Similar width to binary */
+    max-width: 70%; /* Ensure it scales responsibly */
+    font-size: calc(6vw + 40px); /* Extra large, scales dynamically */
     color: #ffffff; /* White text */
     margin: auto;
-    padding: 4vw; /* Match padding for consistency */
+    padding: 3vw; /* Padding to balance size and readability */
     opacity: 1; /* Ensure full visibility */
     transition: opacity 0.1s ease-in;
     text-align: center; /* Center-align text */
