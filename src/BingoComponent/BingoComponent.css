@@ -13,30 +13,31 @@
 
 #bingo-text {
     width: fit-content;
-    font-size: calc(48px + 40 * ((100vw - 320px) / 2000)); /* Increase font size */
-    color: #ffffff; /* Change color to white */
-    border: calc(2px + 5 * ((100vw - 320px) / 2000)) solid #ffffff; /* White border */
+    font-size: calc(72px + 60 * ((100vw - 320px) / 2000)); /* Extra large font size */
+    color: #ffffff; /* White text */
+    border: calc(4px + 10 * ((100vw - 320px) / 2000)) solid #ffffff; /* Thicker white border */
     border-radius: 10px;
     margin: auto;
     margin-bottom: 3vh;
-    padding: 2vw; /* Increase padding for better spacing */
+    padding: 3vw; /* Increased padding for better spacing */
     margin-top: 3vh;
+    text-align: center; /* Center-align the text */
 }
 
 #bingo-text span {
-    color: #ffffff; /* Change color to white for span inside bingo-text */
+    color: #ffffff; /* Keep span text white */
     font-family: Roboto;
 }
 
 #answer {
     width: fit-content;
-    font-size: calc(48px + 40 * ((100vw - 320px) / 2000)); /* Increase font size */
-    color: #ffffff; /* Change color to white */
+    font-size: calc(72px + 60 * ((100vw - 320px) / 2000)); /* Extra large font size */
+    color: #ffffff; /* White text */
     margin: auto;
-    padding: 2vw; /* Increase padding */
-    opacity: 1; /* Ensure visibility */
+    padding: 3vw; /* Increased padding */
+    opacity: 1; /* Fully visible */
     transition: opacity 0.1s ease-in;
-    text-align: center; /* Center-align text */
+    text-align: center; /* Center-align the answer text */
 }
 
 .bingo-button {
