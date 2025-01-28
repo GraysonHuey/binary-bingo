@@ -19,9 +19,6 @@ function App() {
           <BingoComponent max="75" min="1"/>
           <TimerComponent />
         </div>
-        <div id='credits'>
-          <a href="http://wrhs.net/cshs" className='app-link' target="_blank" rel="noopener noreferrer">Washburn Rural Highschool CSHS</a>
-        </div>
       </div>
     </LocalStorageProvider>
   );
