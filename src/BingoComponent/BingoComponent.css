@@ -12,16 +12,17 @@
 }
 
 #bingo-text {
-    width: fit-content;
-    font-size: calc(72px + 60 * ((100vw - 320px) / 2000)); /* Extra large font size */
+    width: 50vw; /* Make the width span halfway between the roll button and timer */
+    max-width: 70%; /* Ensure it doesn’t exceed 70% of the screen width */
+    font-size: calc(6vw + 40px); /* Scale font size dynamically with viewport width */
     color: #ffffff; /* White text */
-    border: calc(4px + 10 * ((100vw - 320px) / 2000)) solid #ffffff; /* Thicker white border */
+    border: 5px solid #ffffff; /* Thicker white border */
     border-radius: 10px;
     margin: auto;
     margin-bottom: 3vh;
-    padding: 3vw; /* Increased padding for better spacing */
+    padding: 3vw; /* Add spacing inside for readability */
     margin-top: 3vh;
-    text-align: center; /* Center-align the text */
+    text-align: center; /* Center the text */
 }
 
 #bingo-text span {
@@ -30,16 +31,16 @@
 }
 
 #answer {
-    width: fit-content;
-    font-size: calc(72px + 60 * ((100vw - 320px) / 2000)); /* Extra large font size */
+    width: 50vw; /* Similar width to binary */
+    max-width: 70%; /* Ensure it scales responsibly */
+    font-size: calc(6vw + 40px); /* Extra large, scales dynamically */
     color: #ffffff; /* White text */
     margin: auto;
-    padding: 3vw; /* Increased padding */
-    opacity: 1; /* Fully visible */
+    padding: 3vw; /* Padding to balance size and readability */
+    opacity: 1; /* Ensure full visibility */
     transition: opacity 0.1s ease-in;
-    text-align: center; /* Center-align the answer text */
+    text-align: center; /* Center-align text */
 }
-
 .bingo-button {
     aspect-ratio: 16/5;
     width: 35vw;
