@@ -26,12 +26,3 @@ body {
   width: 100%;
   height: calc(100vh - ((10px + 2vmin) * 8));
 }
-
-/* Did we need credits? no. Is it awesome? yes. */
-#credits {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-  text-align: center;
-}
