@@ -92,6 +92,9 @@ const generateDifficulty = (num) => {
     // Decrement difficulty by 0.003 for each used number
     difficulty -= usedNumbers.length * 0.01;
 
+    // SETS TIMER TO A FIXED VALUE OF 15 SECONDS. Comment to enable procedurally generated time values.
+    difficulty = 1.5;
+    
     return parseFloat(difficulty.toFixed(1)); // Round to 1 decimal place
 }
 
